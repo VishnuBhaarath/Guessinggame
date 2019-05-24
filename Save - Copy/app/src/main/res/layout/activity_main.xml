@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/body"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userenter"
+        android:layout_marginLeft="125dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="250dp"
+        android:hint="enter the number of tries "/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter  your guess"
+      android:layout_marginLeft="140dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/enter"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Check"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="165dp"
+        android:id="@+id/apply"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="High Score"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textSize="20dp"
+        android:layout_marginLeft="310dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginLeft="165dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/reset"/>
+</RelativeLayout>

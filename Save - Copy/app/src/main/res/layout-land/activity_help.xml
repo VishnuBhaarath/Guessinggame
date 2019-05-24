@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/body"
+    android:layout_height="match_parent">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/intro"
+        android:text="Welcome, to the random number guessing game. In this game a random number is generated at random
+You have to guess the random with in limited number of tries as set by you to be successful"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_marginTop="100dp"
+        android:hint="Enter the number of tries"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:id="@+id/tries"
+        android:layout_marginLeft="210dp"
+        android:text=": You can see the following field in which you have to enter the maximum number of tries."/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:hint="Enter your guess"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:layout_marginLeft="140dp"
+       android:id="@+id/guess"
+        android:text=" : You can see the following field in which you have to enter your guessing number"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:hint="Check"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:id="@+id/check"
+        android:text=" : You should click the following button after entering the guessing number and the number of tries, the screen colour will change depending on how near you are to the answer and a toast message will also appear."/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:hint="Reset"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="395dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:id="@+id/reset"
+        android:text=" : When you click the following button everything in the screen will be reset, including the highscore which will become 0and a new random number will be generated"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="600dp"
+        android:id="@+id/end"
+        android:text="You can see your highscore appearing at the top which is equal to the minimum number of guesses, at the start it will be zero or it will become zero when you click the reset button. If you are able to guess the correct answer within the number of tries you set at the top, you are considered as a winner, and a new random number is generated automatically, if your tries exceeds the maximum number, a toast message pops up and a new random number is generated."/>
+   </RelativeLayout>
+</ScrollView>
