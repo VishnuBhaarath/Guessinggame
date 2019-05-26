@@ -28,7 +28,7 @@ You have to guess the random with in limited number of tries as set by you to be
         android:textSize="20sp"
         android:layout_marginLeft="210dp"
         android:id="@+id/tries"
-        android:text=":You can see the
+        android:text=" You can see the
  following field in
  which you have to
  enter the maximum
@@ -45,9 +45,9 @@ You have to guess the random with in limited number of tries as set by you to be
         android:layout_marginLeft="140dp"
         android:textSize="20sp"
         android:id="@+id/guess"
-        android:text="  You can see the following
-  field in which you have to
-  enter your guessing number"/>
+        android:text="   You can see the following
+   field in which you have to
+   enter your guessing number"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@ You have to guess the random with in limited number of tries as set by you to be
         android:layout_marginLeft="100dp"
         android:id="@+id/check"
         android:textSize="20dp"
-        android:text=" : You should click the following
+        android:text="   You should click the following
    button after entering the
    guessing number and the
    number of tries, the screen
@@ -80,7 +80,7 @@ You have to guess the random with in limited number of tries as set by you to be
         android:layout_marginLeft="100dp"
         android:id="@+id/reset"
         android:textSize="20dp"
-        android:text=" : When you click the following
+        android:text="  When you click the following
    button everything in the screen
    will be reset, including the
    highscore which will become
